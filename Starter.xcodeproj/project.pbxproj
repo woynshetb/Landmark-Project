@@ -14,6 +14,8 @@
 		5698D4BA2A7799C3001162CF /* StarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5698D4B92A7799C3001162CF /* StarterTests.swift */; };
 		5698D4C42A7799C3001162CF /* StarterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5698D4C32A7799C3001162CF /* StarterUITests.swift */; };
 		5698D4C62A7799C3001162CF /* StarterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5698D4C52A7799C3001162CF /* StarterUITestsLaunchTests.swift */; };
+		5698D4D32A77A439001162CF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5698D4D22A77A439001162CF /* CircleImage.swift */; };
+		5698D4D52A77AA69001162CF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5698D4D42A77AA69001162CF /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		5698D4BF2A7799C3001162CF /* StarterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5698D4C32A7799C3001162CF /* StarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterUITests.swift; sourceTree = "<group>"; };
 		5698D4C52A7799C3001162CF /* StarterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5698D4D22A77A439001162CF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		5698D4D42A77AA69001162CF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				5698D4A82A7799C2001162CF /* StarterApp.swift */,
 				5698D4AA2A7799C2001162CF /* ContentView.swift */,
+				5698D4D22A77A439001162CF /* CircleImage.swift */,
+				5698D4D42A77AA69001162CF /* MapView.swift */,
 				5698D4AC2A7799C3001162CF /* Assets.xcassets */,
 				5698D4AE2A7799C3001162CF /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5698D4AB2A7799C2001162CF /* ContentView.swift in Sources */,
+				5698D4D52A77AA69001162CF /* MapView.swift in Sources */,
 				5698D4A92A7799C2001162CF /* StarterApp.swift in Sources */,
+				5698D4D32A77A439001162CF /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
